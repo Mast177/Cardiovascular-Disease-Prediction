@@ -1,5 +1,5 @@
 # Cardiovascular-Disease-Prediction
-This is the online repository for an MLP student project that predicts the presence of Cardiovascular Disease in a patient
+This is the online repository for an Machine Learning Network student project that predicts the presence of Cardiovascular Disease in a patient and then compares the performance of several models.
 
 ## Team ID:
 Four-O-Fourtune
@@ -8,7 +8,32 @@ Four-O-Fourtune
 Alex Bard
 
 ## Features:
+- Program will automatically measure the accuracy, precision, recall, and training time of each model and then graph the results for easier comparison.
+- Program will print results of datapreprocessing and training results to terminal.
+- Included .py files include extensive comments for easier code readability
 
+### Models Used:
+- MLP
+- LightGBM
+- Random Forest
+- Logistic Regression
+- KNN
+- XGBoost
+
+## Dependencies:
+- numpy
+- pandas
+- matplotlib
+- sklearn
+- xgboost
+- lightgbm
+
+## Usage:
+- Download Datacheck.py, cdp_main.py, heart.csv, and listed dependencies (above) to a local enviroment.
+- Make sure that the local environment has been activated.
+- Run cdp_main.py. Output will be printed to terminal and two figures will be opened to desktop for data visualization.
+
+Note: model training times may vary between systems.
 
 ## Dataset:
 [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/data)
